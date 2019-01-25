@@ -1,0 +1,67 @@
+{
+    "response": [
+        {
+            "name": "Full Service",
+            "items": [
+                {
+                    "id":1,
+                    "name": "Servicee A",
+                    "email": "100",
+                    "price": 1000000,
+                    "domain": false,
+                    "sender": false,
+                    "slicing": true,
+                    "template": true,
+                    "url":"https://blast.docotel.com/order/6/1"
+                },
+                {
+                    "id":2,
+                    "name": "Servicee B",
+                    "email": "1000",
+                    "price": 110000000,
+                    "domain": false,
+                    "sender": true,
+                    "slicing": true,
+                    "template": false,
+                    "url":"https://blast.docotel.com/order/6/1"
+                }
+            ]
+        },
+        {
+            "name": "Bussines",
+            "items": [
+                {
+                    "id":1,
+                    "name": "Servicee A",
+                    "email": "5000",
+                    "price": 1000000,
+                    "domain": true,
+                    "sender": false,
+                    "slicing": false,
+                    "template": false,
+                    "url":"https://blast.docotel.com/order/6/1"
+                }
+            ]
+        },
+        {
+            "name": "Basic",
+            "items": [
+                {
+                    "id":1,
+                    "name": "Servicee A",
+                    "email": "200",
+                    "price": 2000000,
+                    "domain": false,
+                    "sender": false,
+                    "slicing": false,
+                    "template": false,
+                    "url":"https://blast.docotel.com/order/6/1"
+                }
+            ]
+        }
+    ],
+    "diagnostic": {
+        "code": 200,
+        "status": "ok"
+    }
+}
